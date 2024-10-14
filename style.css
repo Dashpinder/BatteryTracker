@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.battery-container {
+    background-color: skyblue;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+#btryPrcntage {
+    font-size: 50px;
+    font-weight: bold;
+}
+#brtyStatus {
+    font-size: 18px;
+    margin-top: 10px;
+}
